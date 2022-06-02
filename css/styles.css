@@ -88,7 +88,7 @@ margin-right: 93px;
 .site-nav .link.current {
     color: var(--accent);
 }
-.nav-link:hover, .nav-link-portfolio:focus {
+.nav-link:hover, .nav-link:focus {
     color: var(--accent)
 }
 .nav-link {
@@ -100,10 +100,6 @@ color: var(--main-color);
   padding: 32px 0;
 }
 
-.nav-link-contacts:hover, .nav-link-contacts:focus {
-  color: var(--accent)  
-}
-
 .contact-nav {
     display: flex;
     margin-left: auto;
@@ -111,6 +107,32 @@ color: var(--main-color);
 .contact-nav a {
      padding: 32px 0;
 }
+.nav-mail {
+    display: flex;
+    align-items: center;
+}
+
+.mail-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--second-color)   
+ }
+
+  .nav-mail:hover a
+   {color: var(--accent)
+ } 
+ .nav-mail:focus a
+  {color: var(--accent)
+ }
+
+ .nav-mail:hover svg {
+ fill: var(--accent)}
+
+ .nav-mail:focus svg {
+    fill: var(--accent)
+}
+
 .header-mail {
 font-weight: 500;
 font-size: 14px;
@@ -120,6 +142,8 @@ color: var(--second-color);
 margin-right: 50px;
 }
 
+
+
 .header-tel {
 font-weight: 500;
 font-size: 14px;
@@ -128,18 +152,44 @@ letter-spacing: 0.02em;
 color: var(--second-color);
 }
 
-.header-mail:hover, .header-mail:focus {
-    color: var(--accent) 
+.nav-tel {
+    display: flex;
+   align-items: center;
 }
-.header-tel:hover, .header-tel:focus {
+
+.tel-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--second-color);    
+ }
+
+  .nav-tel:hover a
+   {color: var(--accent)
+ } 
+ .nav-tel:focus a
+  {color: var(--accent)
+ }
+
+ .nav-tel:hover svg {
+ fill: var(--accent)}
+
+ .nav-tel:focus svg {
+    fill: var(--accent)
+}
+
+ 
+/* .header-tel:hover, .header-tel:focus {
     color: var(--accent)
-}
+} */
 
 .section {
     padding: 94px 0;
 }
 .hero {
+max-width: 1600px;
 background: var(--second-background);
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/imghero.jpg);
 padding-top: 200px;
 padding-bottom: 200px;
 }
@@ -193,6 +243,8 @@ height: 50px;
 .advantage-list-item {
  width: 270px;
 }
+
+
 .advantage-title {
    font-weight: 700;
 font-size: 14px;
