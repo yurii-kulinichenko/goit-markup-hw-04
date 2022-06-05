@@ -416,6 +416,11 @@ ul {
   fill: var(--accent);
 }
 
+.clients-list-link:hover ,
+.clients-list-link:focus  {
+  border: 1px solid var(--accent);
+}
+
 .footer {
   background: var(--second-background);
   padding: 60px 0;
@@ -466,12 +471,13 @@ ul {
 }
 
 .footer-title {
+  font-weight: 700px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-color);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-icons-list {
