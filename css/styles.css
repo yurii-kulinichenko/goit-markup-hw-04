@@ -416,7 +416,7 @@ ul {
   fill: var(--accent);
 }
 
-.clients-list-link:hover ,
+.clients-list-link:hover,
 .clients-list-link:focus  {
   border: 1px solid var(--accent);
 }
